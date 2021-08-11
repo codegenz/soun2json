@@ -5,7 +5,7 @@ namespace Soun2json;
 class Soun2json
 {
 
-    use XBase\TableReader;
+    use TableReader;
 
     public function getData() {
 
