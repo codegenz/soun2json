@@ -1,10 +1,9 @@
 <?php
 
+use XBase\TableReader;
 
 class Soun2json
 {
-
-    use XBase\TableReader;
 
     public function getData() {
 
