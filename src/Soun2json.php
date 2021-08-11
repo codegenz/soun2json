@@ -1,7 +1,5 @@
 <?php
 
-use XBase\TableReader;
-
 class Soun2json
 {
 
@@ -16,7 +14,7 @@ class Soun2json
 	$exitCode=null;
 	exec($extractCommand, $stdOut, $exitCode);
 
-	$table = new TableReader(
+	$table = new XBase\TableReader(
 	    'SOUN1.dbf',
 	    [
     		'encoding' => 'cp866'
