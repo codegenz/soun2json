@@ -1,0 +1,21 @@
+{
+    "name": "codegen/soun2json",
+    "description": "my description",
+    "type": "library",
+    "require": {
+	"php": ">=7.3",
+        "hisamu/php-xbase": "^2.0"
+    },
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "Soun2json\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergey S. Nikulin",
+            "email": "wpstnik@gmail.com"
+        }
+    ]
+}
