@@ -4,7 +4,7 @@
 class Soun2json
 {
 
-    use TableReader;
+    use XBase\TableReader;
 
     public function getData() {
 
