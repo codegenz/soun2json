@@ -6,7 +6,7 @@
 	"php": ">=7.3",
         "hisamu/php-xbase": "^2.0"
     },
-    "license": "GNU",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Soun2json\\": "src/"
