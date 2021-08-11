@@ -36,6 +36,7 @@ class Soun2json
 	}
 
 	unlink("SOUN1.dbf");
+	unlink("SOUN_DBF.ARJ");
 	return json_encode($array,JSON_UNESCAPED_UNICODE);
     }
 }
