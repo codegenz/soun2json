@@ -2,6 +2,8 @@
 
 use XBase\TableReader;
 
+namespace Soun2json;
+
 class Soun2json
 {
 
