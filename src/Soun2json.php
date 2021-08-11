@@ -1,6 +1,5 @@
 <?php
 
-namespace Soun2json;
 
 class Soun2json
 {
