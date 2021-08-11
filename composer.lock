@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1da9653228a2bb8a49edf4840f26d302",
+    "content-hash": "28ac31de42d96e04193f06e72f3fcda3",
     "packages": [
         {
             "name": "hisamu/php-xbase",
@@ -79,7 +79,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7.3"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"
 }
